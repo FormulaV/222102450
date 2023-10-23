@@ -12,6 +12,7 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { Dashboard2Component } from './dashboard2/dashboard2.component';
 import { SignupComponent } from './signup/signup.component';
+import { Dashboard3Component } from './dashboard3/dashboard3.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SignupComponent } from './signup/signup.component';
     ContentComponent,
     FooterComponent,
     Dashboard2Component,
-    SignupComponent
+    SignupComponent,
+    Dashboard3Component
   ],
   imports: [
     BrowserModule,
