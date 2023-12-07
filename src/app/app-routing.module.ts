@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
 import { otentikasiGuard } from './otentikasi.guard';
+import { ForexComponent } from './forex/forex.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -28,6 +29,7 @@ const routes: Routes = [
     component: Dashboard3Component,
     canActivate: [otentikasiGuard],
   },
+  { path: 'forex', component: ForexComponent, canActivate: [otentikasiGuard] },
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
   {
