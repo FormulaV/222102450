@@ -7,7 +7,6 @@ declare const moment: any;
 @Component({
   selector: 'app-cuaca',
   templateUrl: './cuaca.component.html',
-  styleUrl: './cuaca.component.css',
 })
 export class CuacaComponent implements OnInit, AfterViewInit {
   private table1: any;

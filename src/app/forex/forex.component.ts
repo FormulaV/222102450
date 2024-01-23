@@ -7,7 +7,6 @@ declare const $: any;
 @Component({
   selector: 'app-forex',
   templateUrl: './forex.component.html',
-  styleUrl: './forex.component.css',
 })
 export class ForexComponent implements OnInit, AfterViewInit {
   private _table1: any;
